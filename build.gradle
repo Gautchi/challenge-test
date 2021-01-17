@@ -17,4 +17,9 @@ repositories {
 
 dependencies {
   runtime "org.xerial:sqlite-jdbc:3.23.1"
+  testImplementation 'junit:junit:4.13'
+}
+
+test {
+    useJUnit()
 }
